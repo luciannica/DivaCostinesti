@@ -1,14 +1,20 @@
-# Casa Diva NFC
+# Casa Diva NFC – versiunea 2
 
-Fișiere pentru cartea de vizită digitală a lui Răzvan Albu / Casa Diva Costinești.
+Această versiune corectează:
+- logo-ul, astfel încât textul complet să încapă în cerc;
+- pictogramele, folosind SVG-uri clare;
+- fișierul vCard, cu fotografia/logo-ul încorporat;
+- aspectul mobil, mai apropiat de preview.
 
-## Publicare rapidă
+## Actualizare pe GitHub
 
-1. Creează un repository nou pe GitHub.
-2. Încarcă toate fișierele din acest folder în rădăcina repository-ului.
-3. Deschide Settings → Pages.
-4. La Source selectează Deploy from a branch.
-5. Selectează branch-ul main și folderul /(root), apoi Save.
-6. După publicare, scrie URL-ul rezultat pe eticheta NFC ca record URL/URI.
+Șterge sau înlocuiește fișierele vechi și încarcă toate fișierele din acest pachet.
+Fișierele CSS/JS și logo-ul au nume noi pentru a evita cache-ul Safari.
 
-Fișierul principal trebuie să rămână `index.html`.
+După publicare:
+1. deschide pagina în Safari;
+2. reîncarcă pagina;
+3. apasă „Adaugă în Contacte”;
+4. iPhone ar trebui să deschidă fișa vCard și să afișeze logo-ul ca fotografie.
+
+Notă: pe unele versiuni iOS, previzualizarea fotografiei apare abia în ecranul final de creare a contactului.
